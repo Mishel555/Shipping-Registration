@@ -1,0 +1,19 @@
+h2.title {
+    color:rgba(128, 21, 21, 0.863) !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+};
+h1.end {
+    font-size: 50px !important;
+    font-weight: bold !important;
+    color: #8cd4ff !important;
+    text-shadow: 1px 5px 5px #e6f320 !important;
+}
+h3.val {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    color:rgb(137, 137, 158 ) !important;
+}
+body {
+    background:linear-gradient(blue,purple,black) 
+}

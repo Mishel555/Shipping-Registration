@@ -1,0 +1,738 @@
+{
+	"states": {
+		"US": [
+			{ "code": "AL", "name": "Alabama" },
+			{ "code": "AZ", "name": "Arizona" },
+			{ "code": "AR", "name": "Arkansas" },
+			{ "code": "CA", "name": "California" },
+			{ "code": "CO", "name": "Colorado" },
+			{ "code": "CT", "name": "Connecticut" },
+			{ "code": "DE", "name": "Delaware" },
+			{ "code": "DC", "name": "District Of Columbia" },
+			{ "code": "FL", "name": "Florida" },
+			{ "code": "GA", "name": "Georgia" },
+			{ "code": "HI", "name": "Hawaii" },
+			{ "code": "ID", "name": "Idaho" },
+			{ "code": "IL", "name": "Illinois" },
+			{ "code": "IN", "name": "Indiana" },
+			{ "code": "IA", "name": "Iowa" },
+			{ "code": "KS", "name": "Kansas" },
+			{ "code": "KY", "name": "Kentucky" },
+			{ "code": "LA", "name": "Louisiana" },
+			{ "code": "ME", "name": "Maine" },
+			{ "code": "MD", "name": "Maryland" },
+			{ "code": "MA", "name": "Massachusetts" },
+			{ "code": "MI", "name": "Michigan" },
+			{ "code": "MN", "name": "Minnesota" },
+			{ "code": "MS", "name": "Mississippi" },
+			{ "code": "MO", "name": "Missouri" },
+			{ "code": "MT", "name": "Montana" },
+			{ "code": "NE", "name": "Nebraska" },
+			{ "code": "NV", "name": "Nevada" },
+			{ "code": "NH", "name": "New Hampshire" },
+			{ "code": "NJ", "name": "New Jersey" },
+			{ "code": "NM", "name": "New Mexico" },
+			{ "code": "NY", "name": "New York" },
+			{ "code": "NC", "name": "North Carolina" },
+			{ "code": "ND", "name": "North Dakota" },
+			{ "code": "OH", "name": "Ohio" },
+			{ "code": "OK", "name": "Oklahoma" },
+			{ "code": "OR", "name": "Oregon" },
+			{ "code": "PA", "name": "Pennsylvania" },
+			{ "code": "RI", "name": "Rhode Island" },
+			{ "code": "SC", "name": "South Carolina" },
+			{ "code": "SD", "name": "South Dakota" },
+			{ "code": "TN", "name": "Tennessee" },
+			{ "code": "TX", "name": "Texas" },
+			{ "code": "UT", "name": "Utah" },
+			{ "code": "VT", "name": "Vermont" },
+			{ "code": "VA", "name": "Virginia" },
+			{ "code": "WA", "name": "Washington" },
+			{ "code": "WV", "name": "West Virginia" },
+			{ "code": "WI", "name": "Wisconsin" },
+			{ "code": "WY", "name": "Wyoming" }
+		  ],
+		"CA": [
+			{
+				"name": "British Columbia",
+				"code": "BC"
+			},
+			{
+				"name": "Ontario",
+				"code": "ON"
+			},
+			{
+				"name": "Newfoundland and Labrador",
+				"code": "NL"
+			},
+			{
+				"name": "Nova Scotia",
+				"code": "NS"
+			},
+			{
+				"name": "New Brunswick",
+				"code": "NB"
+			},
+			{
+				"name": "Prince Edward Island",
+				"code": "PE"
+			},
+			{
+				"name": "Quebec",
+				"code": "QC"
+			},
+			{
+				"name": "Manitoba",
+				"code": "MB"
+			},
+			{
+				"name": "Prince Edward Island",
+				"code": "PE"
+			},
+			{
+				"name": "Saskatchewan",
+				"code": "SK"
+			},
+			{
+				"name": "Alberta",
+				"code": "AB"
+			},
+			{
+				"name": "Northwest Territories",
+				"code": "NT"
+			},
+			{
+				"name": "Nunavut",
+				"code": "NU"
+			},
+			{
+				"name": "Yukon Territory",
+				"code": "YT"
+			}
+		],
+		"AU": [
+			{
+				"name":"New South Wales",
+				"code":"NSW"
+			},
+			{
+				"name":"Victoria",
+				"code":"VIC"
+			},
+			{
+				"name":"Queensland",
+				"code":"QLD"
+			},
+			{
+				"name":"Tasmania",
+				"code":"TAS"
+			},
+			{
+				"name":"South Australia",
+				"code":"SA"
+			},
+			{
+				"name":"Western Australia",
+				"code":"WA"
+			},
+			{
+				"name":"Northern Territory",
+				"code":"NT"
+			},
+			{
+				"name":"Australian Capital Territory",
+				"code":"ACT"
+			}
+		],
+		"GB": [
+			{
+				"name":"Aberconwy and Colwyn",
+				"code":"I0"
+			},
+			{
+				"name":"Aberdeen City",
+				"code":"I1"
+			},
+			{
+				"name":"Aberdeenshire",
+				"code":"I2"
+			},
+			{
+				"name":"Anglesey",
+				"code":"I3"
+			},
+			{
+				"name":"Angus",
+				"code":"I4"
+			},
+			{
+				"name":"Antrim",
+				"code":"I5"
+			},
+			{
+				"name":"Argyll and Bute",
+				"code":"I6"
+			},
+			{
+				"name":"Armagh",
+				"code":"I7"
+			},
+			{
+				"name":"Avon",
+				"code":"I8"
+			},
+			{
+				"name":"Ayrshire",
+				"code":"I9"
+			},
+			{
+				"name":"Bath and NE Somerse",
+				"code":"IB"
+			},
+			{
+				"name":"Bedfordshire",
+				"code":"IC"
+			},
+			{
+				"name":"Belfast",
+				"code":"IE"
+			},
+			{
+				"name":"Berkshire",
+				"code":"IF"
+			},
+			{
+				"name":"Berwickshire",
+				"code":"IG"
+			},
+			{
+				"name":"BFPO",
+				"code":"IH"
+			},
+			{
+				"name":"Blaenau Gwent",
+				"code":"II"
+			},
+			{
+				"name":"Buckinghamshire",
+				"code":"IJ"
+			},
+			{
+				"name":"Caernarfonshire",
+				"code":"IK"
+			},
+			{
+				"name":"Caerphilly",
+				"code":"IM"
+			},
+			{
+				"name":"Caithness",
+				"code":"IO"
+			},
+			{
+				"name":"Cambridgeshire",
+				"code":"IP"
+			},
+			{
+				"name":"Cardiff",
+				"code":"IQ"
+			},
+			{
+				"name":"Cardiganshire",
+				"code":"IR"
+			},
+			{
+				"name":"Carmarthenshire",
+				"code":"IS"
+			},
+			{
+				"name":"Ceredigion",
+				"code":"IT"
+			},
+			{
+				"name":"Channel Islands",
+				"code":"IU"
+			},
+			{
+				"name":"Cheshire",
+				"code":"IV"
+			},
+			{
+				"name":"City of Bristol",
+				"code":"IW"
+			},
+			{
+				"name":"Clackmannanshire",
+				"code":"IX"
+			},
+			{
+				"name":"Clwyd",
+				"code":"IY"
+			},
+			{
+				"name":"Conwy",
+				"code":"IZ"
+			},
+			{
+				"name":"Cornwall/Scilly",
+				"code":"J0"
+			},
+			{
+				"name":"Cumbria",
+				"code":"J1"
+			},
+			{
+				"name":"Denbighshire",
+				"code":"J2"
+			},
+			{
+				"name":"Derbyshire",
+				"code":"J3"
+			},
+			{
+				"name":"Derry/Londonderry",
+				"code":"J4"
+			},
+			{
+				"name":"Devon",
+				"code":"J5"
+			},
+			{
+				"name":"Dorset",
+				"code":"J6"
+			},
+			{
+				"name":"Down",
+				"code":"J7"
+			},
+			{
+				"name":"Dumfries and Galloway",
+				"code":"J8"
+			},
+			{
+				"name":"Dunbartonshire",
+				"code":"J9"
+			},
+			{
+				"name":"Dundee",
+				"code":"JA"
+			},
+			{
+				"name":"Durham",
+				"code":"JB"
+			},
+			{
+				"name":"Dyfed",
+				"code":"JC"
+			},
+			{
+				"name":"East Ayrshire",
+				"code":"JD"
+			},
+			{
+				"name":"East Dunbartonshire",
+				"code":"JE"
+			},
+			{
+				"name":"East Lothian",
+				"code":"JF"
+			},
+			{
+				"name":"East Renfrewshire",
+				"code":"JG"
+			},
+			{
+				"name":"East Riding Yorkshire",
+				"code":"JH"
+			},
+			{
+				"name":"East Sussex",
+				"code":"JI"
+			},
+			{
+				"name":"Edinburgh",
+				"code":"JJ"
+			},
+			{
+				"name":"England",
+				"code":"JK"
+			},
+			{
+				"name":"Essex",
+				"code":"JL"
+			},
+			{
+				"name":"Falkirk",
+				"code":"JM"
+			},
+			{
+				"name":"Fermanagh",
+				"code":"JN"
+			},
+			{
+				"name":"Fife",
+				"code":"JO"
+			},
+			{
+				"name":"Flintshire",
+				"code":"JP"
+			},
+			{
+				"name":"Glasgow",
+				"code":"JQ"
+			},
+			{
+				"name":"Gloucestershire",
+				"code":"JR"
+			},
+			{
+				"name":"Greater London",
+				"code":"JS"
+			},
+			{
+				"name":"Greater Manchester",
+				"code":"JT"
+			},
+			{
+				"name":"Gwent",
+				"code":"JU"
+			},
+			{
+				"name":"Gwynedd",
+				"code":"JV"
+			},
+			{
+				"name":"Hampshire",
+				"code":"JW"
+			},
+			{
+				"name":"Hartlepool",
+				"code":"JX"
+			},
+			{
+				"name":"Hereford and Worcester",
+				"code":"HAW"
+			},
+			{
+				"name":"Highlands",
+				"code":"JZ"
+			},
+			{
+				"name":"Inverclyde",
+				"code":"K0"
+			},
+			{
+				"name":"Inverness-Shire",
+				"code":"K1"
+			},
+			{
+				"name":"Isle of Man",
+				"code":"K2"
+			},
+			{
+				"name":"Isle of Wight",
+				"code":"K3"
+			},
+			{
+				"name":"Kent",
+				"code":"K4"
+			},
+			{
+				"name":"Kincardinshire",
+				"code":"K5"
+			},
+			{
+				"name":"Kingston Upon Hull",
+				"code":"K6"
+			},
+			{
+				"name":"Kinross-Shire",
+				"code":"K7"
+			},
+			{
+				"name":"Kirklees",
+				"code":"K8"
+			},
+			{
+				"name":"Lanarkshire",
+				"code":"K9"
+			},
+			{
+				"name":"Lancashire",
+				"code":"KA"
+			},
+			{
+				"name":"Leicestershire",
+				"code":"KB"
+			},
+			{
+				"name":"Lincolnshire",
+				"code":"KC"
+			},
+			{
+				"name":"Londonderry",
+				"code":"KD"
+			},
+			{
+				"name":"Lincolnshire",
+				"code":"KC"
+			},
+			{
+				"name":"Merseyside",
+				"code":"KE"
+			},
+			{
+				"name":"Merthyr Tydfil",
+				"code":"KF"
+			},
+			{
+				"name":"Mid Glamorgan",
+				"code":"KG"
+			},
+			{
+				"name":"Mid Lothian",
+				"code":"KI"
+			},
+			{
+				"name":"Middlesex",
+				"code":"KH"
+			},
+			{
+				"name":"Monmouthshire",
+				"code":"KJ"
+			},
+			{
+				"name":"Moray",
+				"code":"KK"
+			},
+			{
+				"name":"Neath & Port Talbot",
+				"code":"KL"
+			},
+			{
+				"name":"Newport",
+				"code":"KM"
+			},
+			{
+				"name":"Norfolk",
+				"code":"KN"
+			},
+			{
+				"name":"North Ayrshire",
+				"code":"KP"
+			},
+			{
+				"name":"North East Lincolnshire",
+				"code":"KQ"
+			},
+			{
+				"name":"North Lanarkshire",
+				"code":"KR"
+			},
+			{
+				"name":"North Lincolnshire",
+				"code":"KT"
+			},
+			{
+				"name":"NewpoNorth Somersetrt",
+				"code":"KU"
+			},
+			{
+				"name":"North Yorkshire",
+				"code":"KV"
+			},
+			{
+				"name":"NewpNorthamptonshireort",
+				"code":"KO"
+			},
+			{
+				"name":"Northern Ireland",
+				"code":"KW"
+			},
+			{
+				"name":"Northumberland",
+				"code":"KX"
+			},
+			{
+				"name":"Nottinghamshire",
+				"code":"KZ"
+			},
+			{
+				"name":"Orkney and Shetland Isles",
+				"code":"L0"
+			},
+			{
+				"name":"Oxfordshire",
+				"code":"L1"
+			},
+			{
+				"name":"Pembrokeshire",
+				"code":"L2"
+			},
+			{
+				"name":"Perth and Kinross",
+				"code":"L3"
+			},
+			{
+				"name":"Powys",
+				"code":"L4"
+			},
+			{
+				"name":"Redcar and Cleveland",
+				"code":"L5"
+			},
+			{
+				"name":"Renfrewshire",
+				"code":"L6"
+			},
+			{
+				"name":"Rhonda Cynon Taff",
+				"code":"L7"
+			},
+			{
+				"name":"Rutland",
+				"code":"L8"
+			},
+			{
+				"name":"Scottish Borders",
+				"code":"L9"
+			},
+			{
+				"name":"Shetland",
+				"code":"LB"
+			},
+			{
+				"name":"Shropshire",
+				"code":"LC"
+			},
+			{
+				"name":"Shetland",
+				"code":"LB"
+			},
+			{
+				"name":"Shropshire",
+				"code":"LC"
+			},
+			{
+				"name":"Somerset",
+				"code":"LD"
+			},
+			{
+				"name":"South Ayrshire",
+				"code":"LE"
+			},
+			{
+				"name":"South Glamorgan",
+				"code":"LF"
+			},
+			{
+				"name":"South Gloucesteshire",
+				"code":"LG"
+			},
+			{
+				"name":"South Lanarkshire",
+				"code":"LH"
+			},
+			{
+				"name":"South Yorkshire",
+				"code":"LI"
+			},
+			{
+				"name":"Staffordshire",
+				"code":"LJ"
+			},
+			{
+				"name":"Stirling",
+				"code":"LK"
+			},
+			{
+				"name":"Stockton On Tees",
+				"code":"LL"
+			},
+			{
+				"name":"Suffolk",
+				"code":"LM"
+			},
+			{
+				"name":"Surrey",
+				"code":"LN"
+			},
+			{
+				"name":"Swansea",
+				"code":"LO"
+			},
+			{
+				"name":"Torfaen",
+				"code":"LP"
+			},
+			{
+				"name":"Tyne and Wear",
+				"code":"LQ"
+			},
+			{
+				"name":"Tyrone",
+				"code":"LR"
+			},
+			{
+				"name":"Vale Of Glamorgan",
+				"code":"LS"
+			},
+			{
+				"name":"Wales",
+				"code":"LT"
+			},
+			{
+				"name":"West Berkshire",
+				"code":"LV"
+			},
+			{
+				"name":"West Dunbartonshire",
+				"code":"LW"
+			},
+			{
+				"name":"West Glamorgan",
+				"code":"LX"
+			},
+			{
+				"name":"West Lothian",
+				"code":"LY"
+			},
+			{
+				"name":"West Midlands",
+				"code":"LZ"
+			},
+			{
+				"name":"West Sussex",
+				"code":"M0"
+			},
+			{
+				"name":"West Yorkshire",
+				"code":"M1"
+			},
+			{
+				"name":"Western Isles",
+				"code":"M2"
+			},
+			{
+				"name":"Wiltshire",
+				"code":"M3"
+			},
+			{
+				"name":"Wirral",
+				"code":"M4"
+			},
+			{
+				"name":"Worcestershire",
+				"code":"M5"
+			},
+			{
+				"name":"Wrexham",
+				"code":"M6"
+			},
+			{
+				"name":"York",
+				"code":"M7"
+			}
+		]
+	}
+}
